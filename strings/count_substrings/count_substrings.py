@@ -11,6 +11,6 @@ def count_substrings(string: str, sub_string: str):
         count +=1
         start = index + 1
         
-    print(count)
+    return count
         
-count_substrings("ABCDCDC", "CDC")
+print(count_substrings("ABCDCDC", "CDC"))

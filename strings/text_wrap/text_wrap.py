@@ -6,6 +6,6 @@ def text_wrap(string: str, max_width: int):
             wrap += "\n"
         wrap += word
         
-    print(wrap)
+    return wrap
 
-text_wrap("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4)
+print(text_wrap("ABCDEFGHIJKLIMNOQRSTUVWXYZ", 4))
