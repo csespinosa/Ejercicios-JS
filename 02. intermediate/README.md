@@ -18,12 +18,12 @@ In this section, you will face challenges related to data types and data structu
 ### Stacks
 
 1. **Stack Implementation**:
-    - Description: Implement a stack from scratch with basic push and pop operations. Make sure to include functions for checking if the stack is empty (isEmpty()) and getting the size of the stack (size()).
+    - Description: Implement a stack from scratch with basic `push` and `pop` operations. Make sure to include functions for checking if the stack is empty `(isEmpty())` and getting the size of the stack `(size())`.
 
 ### Queues
 
 1. **Queue Implementation**:
-    - Description: Implement a basic queue with enqueue and dequeue operations. Perform a sequence of enqueue and dequeue operations and display the resulting queue.
+    - Description: Implement a basic queue with `enqueue` and `dequeue` operations. Perform a sequence of enqueue and dequeue operations and display the resulting queue.
 
 ### Sets
 
@@ -88,11 +88,11 @@ In this section, you will face challenges related to data types and data structu
    - *Example Output:* The first node with value `7` was found: `7`
 3. **Delete Node from Linked List**:
     - Description: Write a function to delete a specific node from a linked list.
-    - Example Input: Linked list: 1 -> 2 -> 3 -> 4, Node to delete: 3
-    - Example Output: Linked list after deletion: 1 -> 2 -> 4
+    - Example Input: Linked list: `1 -> 2 -> 3 -> 4`, Node to delete: `3`
+    - Example Output: Linked list after deletion: `1 -> 2 -> 4`
 
 ### Graphs
 
 1. **Create a Cyclic Graph:**
    - *Description:* Implement code to create a simple cyclic directed graph.
-   - *Graph Structure:*  A -> B -> C -> A (Forming a cycle).
+   - *Graph Structure:*  `A -> B -> C -> A` (Forming a cycle).
