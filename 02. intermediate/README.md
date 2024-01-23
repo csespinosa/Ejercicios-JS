@@ -2,6 +2,10 @@
 
 This collection of exercises is designed to provide an intermediate approach to programming, addressing basic concepts of data structures and algorithms. Whether you're advancing from basic programming concepts or looking to consolidate your understanding in these key topics.
 
+# Section under construction
+
+![construction](./image.jpg)
+
 ## Table of contents of excercises
 
 - [Data-Structures](#data-structures).
