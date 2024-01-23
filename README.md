@@ -8,7 +8,7 @@ Repository with examples and basic exercises of programming
 ## Levels
 
 1. Basic: Exercises related to programming fundamentals, such as conditionals, operators, cycles, and functions, among others.
-2. Intermediate: Exercises related to simple data structures such as queues, stacks, graph, 2D arrays, among others. 
+2. Intermediate: Exercises related to simple data structures such as queues, stacks, graph, 2D arrays, among others.
 3. Advanced: Recursion, Search and Sort of elements, analyze algorithms using (Big O), among others.
 
 ## Team
