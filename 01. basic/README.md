@@ -77,7 +77,6 @@ In this section, you will tackle problems related to data types. To tackle these
     - *Example Input:* `"Hello World"`, substring: `"World"`
     - *Example Output:* `true`
 
-
 ### Numbers
 
 1. **Addition:**
@@ -285,6 +284,56 @@ In this section, you will tackle problems related to data types. To tackle these
     - *Description:* Declare an array of objects representing products with "name" and "price" properties. Find and return the product with the highest price.
     - *Example Input:* `[{name: "Phone", price: 500}, {name: "Laptop", price: 1000}, {name: "Headphones", price: 50}]`
     - *Example Output:* `{name: "Laptop", price: 1000}`
+
+11. **Find Object by Property Value:**
+    - *Description:* Declare an array of objects with "username" properties. Implement a function to find and return the object with a specific "username" value.
+    - *Example Input:* `[{username: "john", age: 25}, {username: "alice", age: 30}, {username: "bob", age: 22}]`, target username: "alice"
+    - *Example Output:* `{username: "alice", age: 30}`
+
+12. **Remove Objects with Age Below Threshold:**
+    - *Description:* Declare an array of objects with "age" properties. Remove objects with an age below a specified threshold.
+    - *Example Input:* `[{name: "John", age: 28}, {name: "Alice", age: 22}, {name: "Bob", age: 30}]`, threshold: 25
+    - *Example Output:* `[{name: "John", age: 28}, {name: "Bob", age: 30}]`
+
+13. **Filter Objects by Property Range:**
+    - *Description:* Declare an array of objects with "price" properties. Filter objects based on a specified price range.
+    - *Example Input:* `[{item: "Laptop", price: 800}, {item: "Phone", price: 500}, {item: "Tablet", price: 1200}]`, price range: 600 to 1000
+    - *Example Output:* `[{item: "Laptop", price: 800}, {item: "Phone", price: 500}]`
+
+14. **Remove Objects with Empty String Property:**
+    - *Description:* Declare an array of objects with "email" properties. Remove objects where the "email" property is an empty string.
+    - *Example Input:* `[{name: "John", email: "john@example.com"}, {name: "Alice", email: ""}, {name: "Bob", email: "bob@example.com"}]`
+    - *Example Output:* `[{name: "John", email: "john@example.com"}, {name: "Bob", email: "bob@example.com"}]`
+
+15. **. Find Object Index by Property Value:**
+    - *Description:* Declare an array of objects with "productCode" properties. Implement a function to find and return the index of the object with a specific "productCode" value.
+    - *Example Input:* `[{productCode: "A123", quantity: 10}, {productCode: "B456", quantity: 5}, {productCode: "A123", quantity: 8}]`, target productCode: "B456"
+    - *Example Output:* `1`
+
+16. **Filter Objects by Multiple Criteria:**
+    - *Description:* Declare an array of objects with "rating" and "price" properties. Filter objects based on both rating and price criteria.
+    - *Example Input:* `[{item: "TV", rating: 4.5, price: 600}, {item: "Headphones", rating: 3.8, price: 80}, {item: "Laptop", rating: 4.0, price: 1200}]`, rating >= 4.0 and price <= 800
+    - *Example Output:* `[{item: "TV", rating: 4.5, price: 600}, {item: "Headphones", rating: 3.8, price: 80}]`
+
+17. **Remove Objects with Null Property:**
+    - *Description:* Declare an array of objects with "description" properties. Remove objects where the "description" property is null.
+    - *Example Input:* `[{name: "John", description: "Engineer"}, {name: "Alice", description: null}, {name: "Bob", description: "Designer"}]`
+    - *Example Output:* `[{name: "John", description: "Engineer"}, {name: "Bob", description: "Designer"}]`
+
+18. **Find Objects with Maximum Value:**
+    - *Description:* Declare an array of objects with "quantity" properties. Find and return the object(s) with the maximum "quantity" value.
+    - *Example Input:* `[{product: "Widget", quantity: 20}, {product: "Gadget", quantity: 15}, {product: "Device", quantity: 20}]`
+    - *Example Output:* `[{product: "Widget", quantity: 20}, {product: "Device", quantity: 20}]`
+
+19. **Remove Objects with Specific Property Value:**
+    - *Description:* Declare an array of objects with "status" properties. Remove objects where the "status" property has a specific value.
+    - *Example Input:* `[{id: 1, status: "active"}, {id: 2, status: "inactive"}, {id: 3, status: "active"}]`, target status: "inactive"
+    - *Example Output:* `[{id: 1, status: "active"}, {id: 3, status: "active"}]`
+
+20. **Filter Objects with Unique Property Values:**
+    - *Description:* Declare an array of objects with "category" properties. Filter objects to include only those with unique "category" values.
+    - *Example Input:* `[{item: "Chair", category: "Furniture"}, {item: "Lamp", category: "Lighting"}, {item: "Table", category: "Furniture"}]`
+    - *Example Output:* `[{item: "Chair", category: "Furniture"}, {item: "Lamp", category: "Lighting"}]`
 
 ## Conditionals
 
