@@ -233,6 +233,57 @@ In this section, you will tackle problems related to data types. To tackle these
     - *Example Input:* `[1, 2, 3, 4, 5]`
     - *Example Output:* `[2, 3, 4, 5, 1]`
 
+11. **Reverse Array:**
+    - *Description:* Declare an array and reverse its order.
+    - *Example Input:* `[1, 2, 3, 4, 5]`
+    - *Example Output:* `[5, 4, 3, 2, 1]`
+
+12. **Multiply Each Element:**
+    - *Description:* Declare an array of numbers and multiply each element by a given factor.
+    - *Example Input:* `[2, 4, 6, 8, 10]`, Factor: `3`
+    - *Example Output:* `[6, 12, 18, 24, 30]`
+
+13. **Capitalize Strings:**
+    - *Description:* Declare an array of strings and capitalize the first letter of each string.
+    - *Example Input:* `["apple", "banana", "cherry"]`
+    - *Example Output:* `["Apple", "Banana", "Cherry"]`
+
+14. **Check for Empty Array:**
+    - *Description:* Declare an array and check if it's empty.
+    - *Example Input:* `[]`
+    - *Example Output:* `true`
+
+15. **Slice Array:**
+    - *Description:* Declare an array and create a new array by slicing a portion of it.
+    - *Example Input:* `[10, 20, 30, 40, 50]`, Start: `1`, End: `4`
+    - *Example Output:* `[20, 30, 40]`
+
+16. **Find Minimum Element:**
+    - *Description:* Declare an array of numbers and find the minimum element.
+    - *Example Input:* `[12, 5, 8, 15, 3]`
+    - *Example Output:* `3`
+
+17. **Filter Odd Numbers:**
+    - *Description:* Declare an array of numbers and create a new array containing only the odd numbers.
+    - *Example Input:* `[1, 4, 7, 10, 3, 6]`
+    - *Example Output:* `[1, 7, 3]`
+
+18. **Check for Duplicate Elements:**
+    - *Description:* Declare an array and check if it contains any duplicate elements.
+    - *Example Input:* `[3, 6, 2, 8, 3]`
+    - *Example Output:* `true`
+
+19. **Map Array to Squares:**
+    - *Description:* Declare an array of numbers and create a new array with each element squared.
+    - *Example Input:* `[2, 4, 6, 8]`
+    - *Example Output:* `[4, 16, 36, 64]`
+
+20. **Find Index of Element:**
+    - *Description:* Declare an array and find the index of a specific element.
+    - *Example Input:* `[10, 20, 30, 40, 50]`, Element: `30`
+    - *Example Output:* `2`
+
+
 ### Objects
 
 1. **Filter Passing Students:**
