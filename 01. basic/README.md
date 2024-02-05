@@ -1110,7 +1110,7 @@ In this section, we will address issues related to data types in SQL. To tackle 
 ### SQL-DDL
 
 1. **Create a Table for Products:**
-    - *Description:* Design an SQL table to store basic product information, including attributes such as product ID (integer), name (varchar), discount(integer) and price(integer).
+    - *Description:* Design an SQL table to store basic product information, including attributes such as product ID (integer), name (varchar), discount (integer) and price(integer).
 
 2. **Modify Products Table - Add Description:**
     - *Description:* Add a new column to the products table, such as "description," (varchar) to provide additional details about each product.
