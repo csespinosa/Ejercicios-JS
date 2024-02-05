@@ -20,6 +20,10 @@ Welcome to the Basic Programming Exercises section! This collection of exercises
 - [Functions](#functions).
 - [Dates](#dates).
 - [Errors](#errors).
+- [SQL](#sql)
+    - [SQL DDL](#sql-ddl).
+    - [SQL DML](#sql-dml).
+    - [SQL DCL](#sql-dcl).
 
 ## Datatypes
 
@@ -1098,3 +1102,43 @@ In this section, we will focus on exercises related to working with and handling
 
 10. **Handle Type Error:**
     - *Description:* Implement a function that concatenates a string and a number. Use a try-except block to catch and handle TypeError.
+
+## SQL
+
+In this section, we will address issues related to data types in SQL. To tackle these challenges, we will leverage the native functions provided by SQL. We'll explore how to create tables using the CREATE TABLE statement, insert records using the INSERT INTO statement, and perform basic queries using the SELECT statement. These operations will enable us to efficiently manage the structure and data in our databases.
+
+### SQL-DDL
+
+1. **Create a Table for Products:**
+    - *Description:* Design an SQL table to store basic product information, including attributes such as product ID (integer), name (varchar), discount(integer) and price(integer).
+
+2. **Modify Products Table - Add Description:**
+    - *Description:* Add a new column to the products table, such as "description," (varchar) to provide additional details about each product.
+
+3. **Modify Products Table - Remove Discounts:**
+    - *Description:* Remove the "discount" column from the products table.
+
+4. **Modify Products Table - Change Data Type:**
+    - *Description:* Change the data type of the "price" column from integer to decimal to accommodate more precise pricing.
+
+5. **Drop Products Table:**
+    - *Description:* Drop the products table after completing the previous exercises.
+
+6. **Create a Table for Employees:**
+    - *Description:* Design an SQL table to store basic employee information, including attributes such as employee ID (integer), name (varchar), salary (decimal), department (varchar), and hire date (date).
+
+7. **Modify Employees Table - Add Address:**
+    - *Description:* Add a new column to the employees table, such as "address" (text), to include the employee's residential address.
+
+8. **Modify Employees Table - Remove Department:**
+    - *Description:* Remove the "department" column from the employees table.
+
+9. **Modify Employees Table - Change Salary Data Type:**
+    - *Description:* Change the data type of the "salary" column from decimal to integer.
+
+10. **Drop Employees Table:**
+    - *Description:* Drop the products table after completing the previous exercises.
+
+### SQL-DML
+
+### SQL-DCL
