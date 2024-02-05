@@ -1113,7 +1113,7 @@ In this section, we will address issues related to data types in SQL. To tackle 
     - *Description:* Design an SQL table to store basic product information, including attributes such as product ID (integer), name (varchar), discount (integer) and price(integer).
 
 2. **Modify Products Table - Add Description:**
-    - *Description:* Add a new column to the products table, such as "description," (varchar) to provide additional details about each product.
+    - *Description:* Add a new column to the products table, such as "description," (text) to provide additional details about each product.
 
 3. **Modify Products Table - Remove Discounts:**
     - *Description:* Remove the "discount" column from the products table.
@@ -1137,8 +1137,132 @@ In this section, we will address issues related to data types in SQL. To tackle 
     - *Description:* Change the data type of the "salary" column from decimal to integer.
 
 10. **Drop Employees Table:**
-    - *Description:* Drop the products table after completing the previous exercises.
+    - *Description:* Drop the employees table after completing the previous exercises.
 
 ### SQL-DML
 
+1. **Insert News Products:**
+    - *Description:* Insert a news products into the `Products` table.
+    - *Hint:* `INSERT`
+    ```sql
+       (1, 'Product A', 50.99, 'Description product1'),
+       (2, 'Product B', 35.50, 'Description product2'),
+       (3, 'Product C', 40.00, 'Description product3'),
+       (4, 'Product D', 28.75, 'Description product4'),
+       (5, 'Product E', 65.20, 'Description product5'),
+       (6, 'Product F', 22.99, 'Description product6'),
+       (7, 'Product G', 48.75, 'Description product7'),
+       (8, 'Product H', 33.25, 'Description product8'),
+       (9, 'Product I', 19.50, 'Description product9'),
+       (10, 'Product J', 57.80, 'Description product10')
+    ```
+
+2. **Select All Products:**
+    - *Description:* Retrieve all records from the `Products` table.
+    - *Hint:* `SELECT`
+
+3. **Select Products with Price:**
+    - *Description:* Retrieve products with a price greater than or equal to 30 from the `Products` table.
+    - *Hint:* `WHERE`
+
+4. **Order Products by Price Ascending:**
+    - *Description:* Retrieve products from the `Products` table, ordered by price in ascending order.
+    - *Hint:* `ORDER BY`
+
+5. **Order Products by Price Descending:**
+    - *Description:* Retrieve products from the `Products` table, ordered by price in descending order.
+    - *Hint:* `ORDER BY`
+
+6. **Select Products with Price Less Than $50:**
+    - *Description:* Retrieve products with a price less than $50 from the `Products` table.
+    - *Hint:* `WHERE`
+
+7. **Select Unique Product Names:**
+    - *Description:* Retrieve unique product names from the `Products` table.
+    - *Hint:* `DISTINCT`
+
+8. **Update Product Price:**
+    - *Description:* Update the price of a specific product in the `Products` table.
+    - *Hint:* `UPDATE, SET`
+
+9. **Delete a Product:**
+    - *Description:* Delete a specific product from the `Products` table.
+    - *Hint:* `DELETE`
+
+10. **Select First 3 Products with Price Range:**
+    - *Description:* Retrieve the first 3 products with a price between 10 and 30 from the `Products` table.
+    - *Hint:* `LIMIT`
+
+11. **Insert a News Employees:**
+    - *Description:* Insert a news employees into the `Employees` table.
+    - *Hint:* `INSERT`
+    ```sql
+    (1, 'John Doe', 50000.00, '2024-02-01'),
+    (2, 'Jane Smith', 60000.50, '2023-08-15'),
+    (3, 'Mike Johnson', 55000.75, '2024-01-10'),
+    (4, 'Emily Davis', 48000.00, '2023-05-20'),
+    (5, 'Chris Brown', 52000.25, '2024-03-05'),
+    (6, 'Jessica White', 58000.00, '2023-11-18'),
+    (7, 'Brian Lee', 53000.50, '2024-04-30'),
+    (8, 'Megan Taylor', 56000.00, '2023-09-12'),
+    (9, 'Alex Martinez', 51000.75, '2024-02-28'),
+    (10, 'Samantha Wilson', 59000.00, '2023-06-08')
+    ```
+
+12. **Select All Employees:**
+    - *Description:* Retrieve all records from the `Employees` table.
+    - *Hint:* `SELECT`
+
+13. **Select Employees with Salary Greater Than 60000:**
+    - *Description:* Retrieve employees with a salary greater than 60000 from the `Employees` table.
+    - *Hint:* `WHERE`
+
+14. **Order Employees by Salary in Ascending Order:**
+    - *Description:* Retrieve employees from the `Employees` table, ordered by salary in ascending order.
+    - *Hint:* `ORDER BY`
+
+15. **Order Employees by Salary in Descending Order:**
+    - *Description:* Retrieve employees from the `Employees` table, ordered by salary in descending order.
+    - *Hint:* `ORDER BY`
+
+16. **Select Employees Hired After 2023-01-01:**
+    - *Description:* Retrieve employees hired after January 1, 2023, from the `Employees` table.
+    - *Hint:* `WHERE`
+
+17. **Select Unique Employee Names:**
+    - *Description:* Retrieve unique employee names from the `Employees` table.
+    - *Hint:* `DISTINCT`
+
+18. **Update Employee Salary:**
+    - *Description:* Update the salary of a specific employee in the `Employees` table.
+    - *Hint:* `UPDATE, SET`
+
+19. **Delete an Employee:**
+    - *Description:* Delete a specific employee from the `Employees` table.
+    - *Hint:* `DELETE`
+
+20. **Select the First 3 Employees Hired in 2024:**
+    - *Description:* Retrieve the first 3 employees hired in 2024 from the `Employees` table.
+    - *Hint:* `LIMIT`
+
 ### SQL-DCL
+
+1. **Create a New User:**
+    - *Description:* Create a new user with the username 'new_user' and password 'password123'.
+    - *Hint:* `CREATE USER`
+
+2. **Grant SELECT Privilege:**
+    - *Description:* Grant the SELECT privilege on the `Employees` table to the user 'new_user'.
+    - *Hint:* `GRANT SELECT`
+
+3. **Revoke UPDATE Privilege:**
+    - *Description:* Revoke the UPDATE privilege on the `Products` table from the user 'existing_user'.
+    - *Hint:* `REVOKE UPDATE`
+
+4. **Grant EXECUTE Privilege on a Procedure:**
+    - *Description:* Grant the EXECUTE privilege on the stored procedure `calculate_bonus` to the user 'manager'.
+    - *Hint:* `GRANT EXECUT;`
+
+5. **Revoke All Privileges from a User:**
+    - *Description:* Revoke all privileges from the user 'unwanted_user'.
+    - *Hint:* `REVOKE ALL`
