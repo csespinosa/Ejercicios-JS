@@ -1110,7 +1110,7 @@ In this section, we will address issues related to data types in SQL. To tackle 
 ### SQL-DDL
 
 1. **Create a Table for Products:**
-    - *Description:* Design an SQL table to store basic product information, including attributes such as product ID (integer), name (varchar), discount (integer) and price(integer).
+    - *Description:* Design an SQL table to store basic product information, including attributes such as product ID (integer AUTO INCREMENT), name (varchar), discount (integer) and price (integer).
 
 2. **Modify Products Table - Add Description:**
     - *Description:* Add a new column to the products table, such as "description," (text) to provide additional details about each product.
@@ -1125,7 +1125,7 @@ In this section, we will address issues related to data types in SQL. To tackle 
     - *Description:* Drop the products table after completing the previous exercises.
 
 6. **Create a Table for Employees:**
-    - *Description:* Design an SQL table to store basic employee information, including attributes such as employee ID (integer), name (varchar), salary (decimal), department (varchar), and hire date (date).
+    - *Description:* Design an SQL table to store basic employee information, including attributes such as employee ID (integer AUTO INCREMENT), name (varchar), salary (decimal), department (varchar), and hire date (date).
 
 7. **Modify Employees Table - Add Address:**
     - *Description:* Add a new column to the employees table, such as "address" (text), to include the employee's residential address.
@@ -1145,16 +1145,16 @@ In this section, we will address issues related to data types in SQL. To tackle 
     - *Description:* Insert a news products into the `Products` table.
     - *Hint:* `INSERT`
     ```sql
-       (1, 'Product A', 50.99, 'Description product1'),
-       (2, 'Product B', 35.50, 'Description product2'),
-       (3, 'Product C', 40.00, 'Description product3'),
-       (4, 'Product D', 28.75, 'Description product4'),
-       (5, 'Product E', 65.20, 'Description product5'),
-       (6, 'Product F', 22.99, 'Description product6'),
-       (7, 'Product G', 48.75, 'Description product7'),
-       (8, 'Product H', 33.25, 'Description product8'),
-       (9, 'Product I', 19.50, 'Description product9'),
-       (10, 'Product J', 57.80, 'Description product10')
+       ('Product A', 50.99, 'Description product1'),
+       ('Product B', 35.50, 'Description product2'),
+       ('Product C', 40.00, 'Description product3'),
+       ('Product D', 28.75, 'Description product4'),
+       ('Product E', 65.20, 'Description product5'),
+       ('Product F', 22.99, 'Description product6'),
+       ('Product G', 48.75, 'Description product7'),
+       ('Product H', 33.25, 'Description product8'),
+       ('Product I', 19.50, 'Description product9'),
+       ('Product J', 57.80, 'Description product10')
     ```
 
 2. **Select All Products:**
@@ -1197,16 +1197,16 @@ In this section, we will address issues related to data types in SQL. To tackle 
     - *Description:* Insert a news employees into the `Employees` table.
     - *Hint:* `INSERT`
     ```sql
-    (1, 'John Doe', 50000.00, '2024-02-01'),
-    (2, 'Jane Smith', 60000.50, '2023-08-15'),
-    (3, 'Mike Johnson', 55000.75, '2024-01-10'),
-    (4, 'Emily Davis', 48000.00, '2023-05-20'),
-    (5, 'Chris Brown', 52000.25, '2024-03-05'),
-    (6, 'Jessica White', 58000.00, '2023-11-18'),
-    (7, 'Brian Lee', 53000.50, '2024-04-30'),
-    (8, 'Megan Taylor', 56000.00, '2023-09-12'),
-    (9, 'Alex Martinez', 51000.75, '2024-02-28'),
-    (10, 'Samantha Wilson', 59000.00, '2023-06-08')
+    ('John Doe', 50000.00, '2024-02-01'),
+    ('Jane Smith', 60000.50, '2023-08-15'),
+    ('Mike Johnson', 55000.75, '2024-01-10'),
+    ('Emily Davis', 48000.00, '2023-05-20'),
+    ('Chris Brown', 52000.25, '2024-03-05'),
+    ('Jessica White', 58000.00, '2023-11-18'),
+    ('Brian Lee', 53000.50, '2024-04-30'),
+    ('Megan Taylor', 56000.00, '2023-09-12'),
+    ('Alex Martinez', 51000.75, '2024-02-28'),
+    ('Samantha Wilson', 59000.00, '2023-06-08')
     ```
 
 12. **Select All Employees:**
